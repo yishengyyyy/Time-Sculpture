@@ -120,14 +120,13 @@ function downloadCanvas(){
 $(document).ready(function(){
     $('.re').click(function(){
         
-        downloadCanvas()})
+        downloadCanvas();
+        window.location.replace('Retrieve Your Time.html')
+    })
 
 });
 
-//   setTimeout(function(){
-//     loadScript
-    
-// }, 3000);
+// window location replace
 
 
 
