@@ -38,7 +38,7 @@ function draw() {
     strokeWeight(1);
     scale(0.8);
     rotate(PI / 30);
-    angle += 0.001;
+    angle += -0.0009;
     rotate(angle);
     stroke(random(255), random(255), (255));
     var Hr = hour();
