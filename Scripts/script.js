@@ -121,7 +121,7 @@ $(document).ready(function(){
     $('.re').click(function(){
         
         downloadCanvas();
-        window.location.replace('Retrieve Your Time.html')
+        window.location.replace('Retrieve Your Time.html');
     })
 
 });

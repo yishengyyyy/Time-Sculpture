@@ -382,4 +382,44 @@ font-style: normal;
     width:100%;
     
     }
+#warning{
+
+    letter-spacing: 1px;
+    position:relative;
+    margin-top:45%;
+    padding-left: 25vw;
+    padding-right:25vw;
+
+    color:black;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: Arial, sans-serif;
+
+    width: 50vw;
+    min-width: 100px;
+    max-width: 50vw;
+
+    display: none;
+}
+
+
+    @media only screen 
+    and (max-width : 920px) {
+
+   #warning{
+
+    display: block;
+
+
+
+   }
+
+   .textcon{
+       display: none;
+   }
     
+    }
+    
+
+
