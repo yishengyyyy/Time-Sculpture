@@ -389,23 +389,22 @@ font-style: normal;
     margin-top:45%;
     padding-left: 25vw;
     padding-right:25vw;
-
     color:black;
     text-align: center;
     font-size: 15px;
     line-height: 25px;
     font-family: Arial, sans-serif;
-
     width: 50vw;
     min-width: 100px;
     max-width: 50vw;
-
     display: none;
 }
 
 
-    @media only screen 
-    and (max-width : 920px) {
+    /* @media only screen 
+    and (max-width : 920px) { */
+
+ @media screen and (min-width: 0px) and (max-width: 920px){
 
    #warning{
 
